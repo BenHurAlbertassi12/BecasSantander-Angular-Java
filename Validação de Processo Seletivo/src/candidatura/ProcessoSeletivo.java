@@ -4,11 +4,10 @@ public class ProcessoSeletivo {
     static double salarioBase = 2000.00; // Declarando a variável salarioBase fora do método main
 
     public static void main(String[] args) {
-        System.out.println("Processo Seletivo");
-        double salarioPretendido = 2200.00; // Definindo o salário pretendido (você pode alterar esse valor)
-
-        analisarCandidato(salarioPretendido); // Chamando o método analisarCandidato com o salário pretendido como argumento
-    }
+        analisarCandidato(1900.0);
+        analisarCandidato(2900.0);
+        analisarCandidato(2000.0);
+ }
 
     // Definindo o método analisarCandidato com um parâmetro de entrada (salarioPretendido)
     static void analisarCandidato(double salarioPretendido) {
